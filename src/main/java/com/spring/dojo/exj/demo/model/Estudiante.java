@@ -9,15 +9,4 @@ import javax.persistence.*;
 @Data
 public class Estudiante {
 
-    @Id
-    @Column
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-
-    @Column
-    String nombre;
-
-    @Column
-    String carrera;
-
 }
